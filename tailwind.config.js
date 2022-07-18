@@ -9,4 +9,5 @@ module.exports = {
         require('tailwind-scrollbar-hide'),
         require('tailwind-scrollbar'),
     ],
+    important: '#root', // Permet de forcer Tailwind CSS à intervenir sur le CSS d'un composant de Material UI. Root => id à la racine du projet
 };

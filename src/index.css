@@ -27,4 +27,9 @@ code {
   * {
     @apply p-0 m-0 box-border;
   }
+
+  /* Composant Navbar */
+  .navlink {
+    @apply no-underline text-blue-900 hover:text-sky-600 transition delay-200 duration-300 ease-in-out;
+  }
 }
