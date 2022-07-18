@@ -1,8 +1,11 @@
+import { Box } from '@mui/material';
+import HeroBanner from '../components/HeroBanner';
+
 function Home() {
     return (
-        <div>
-            Home Page
-        </div>
+        <Box>
+            <HeroBanner />
+        </Box>
     );
 }
 
